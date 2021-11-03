@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="regression">
+	<test name="LoginTest">
+		<parameter name="userName" value="agentofforce07@gmail.com" />
+		<parameter name="password" value="abc123" />
+		<parameter name="firstName" value="Finley" />
+		<parameter name="lastName" value="Broden" />
+		<parameter name="email" value="agentofforce07@gmail.com" />
+		<parameter name="dobDay" value="15  " />
+		<parameter name="dobMonth" value="August " />
+		<parameter name="dobYear" value="1998  " />
+		<classes>
+			<class name="test.LoginTest" />
+			<class name="test.ChangeAccountInfoTest" />
+		</classes>
+	</test>
+	
+	
+</suite>

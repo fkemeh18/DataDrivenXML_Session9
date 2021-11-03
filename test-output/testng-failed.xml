@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [regression]">
+  <test thread-count="5" name="LoginTest(failed)">
+    <parameter name="firstName" value="Finley"/>
+    <parameter name="lastName" value="Broden"/>
+    <parameter name="password" value="abc123"/>
+    <parameter name="dobDay" value="15  "/>
+    <parameter name="userName" value="agentofforce07@gmail.com"/>
+    <parameter name="dobMonth" value="August "/>
+    <parameter name="dobYear" value="1998  "/>
+    <parameter name="email" value="agentofforce07@gmail.com"/>
+    <classes>
+      <class name="test.ChangeAccountInfoTest">
+        <methods>
+          <include name="validUserShouldBeAbleToChangeAccountInfo" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- test.ChangeAccountInfoTest -->
+    </classes>
+  </test> <!-- LoginTest(failed) -->
+</suite> <!-- Failed suite [regression] -->
